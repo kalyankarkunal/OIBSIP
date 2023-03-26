@@ -13,8 +13,8 @@
   background: linear-gradient(
     150deg,
     #ff9e2fea 0%,
-    rgb(255, 182, 149) 50%,
-    #ffccb5 50%,
+    rgb(255, 255, 255) 50%,
+    #ffffff 50%,
     rgb(14, 177, 177) 100%
   );
 }
