@@ -1,0 +1,157 @@
+/* .min-h-screen{
+    min-height:120vh;
+} */
+
+.bg {
+  /* background-color: rgb(9, 226, 255); */
+  color: rgb(0, 0, 0);
+}
+
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.item-center {
+  align-items: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+.justify-center {
+  justify-content: center;
+}
+.flex-col {
+  flex-direction: column;
+}
+.font_bold {
+  font-weight: bold;
+}
+.flex-row {
+  flex-direction: row;
+}
+
+.column {
+  height: 250px;
+  width: 350px;
+  margin: 25px;
+  padding: 15px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  align-items: center;
+}
+
+.s2h2 {
+  color: rgb(0, 61, 80);
+  padding: 5px;
+  margin: 15px;
+  text-align: center;
+}
+.sym {
+  color: steelblue;
+  border-radius: 200px;
+  margin: 1px;
+  padding: 1px;
+}
+.p-1 {
+  text-align: left;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.img1 {
+  height: 250px;
+  width: 200px;
+  display: flex;
+  padding: 25px;
+}
+
+.p-2 {
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  text-transform: capitalize;
+  float: right;
+  justify-content: space-around;
+  text-align: left;
+  align-items: center;
+}
+hr {
+  border: none;
+}
+strong {
+  font-size: 50px;
+  line-height: 100px;
+  display: flex;
+  float: inline-end;
+}
+.right1 {
+  padding-top: 60px;
+}
+/* .btns3{
+    height: 60px;
+    width: 100px;
+    margin-top: 50px;
+    padding: 10px 20px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    border-radius: 5px;
+    border-color: none;
+    color: rgb(0, 0, 0);
+    border: 2px solid red;
+    background-color: rgb(255, 255, 255);
+    font-family: 'Times New Roman', Times, serif;
+    font-size:18px;
+    font-weight: bolder;
+    overflow: visible;   
+}    */
+
+.img2 {
+  height: 250px;
+  width: 200px;
+  display: flex;
+  padding: 25px;
+  float: right;
+}
+
+.p-3 {
+  margin: 10px;
+  padding: 10px;
+  /* display: flex; */
+  flex-direction: column;
+  text-transform: capitalize;
+  text-align: left;
+  align-items: center;
+  display: flex;
+}
+
+.img3 {
+  height: 350px;
+  width: 250px;
+  display: flex;
+  padding: 25px;
+}
+
+.p-4 {
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  text-transform: capitalize;
+  float: right;
+  justify-content: space-around;
+  text-align: left;
+  align-items: center;
+}
+.h1f2 {
+  display: block;
+  height: auto;
+  width: max-content;
+  text-align: center;
+  justify-content: center;
+  color: rgb(1, 26, 26);
+}
