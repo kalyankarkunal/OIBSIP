@@ -7,10 +7,10 @@
   color: rgb(0, 0, 0);
 }
 
-.mx-auto {
+/* .mx-auto {
   margin-left: auto;
   margin-right: auto;
-}
+} */
 
 .item-center {
   align-items: center;

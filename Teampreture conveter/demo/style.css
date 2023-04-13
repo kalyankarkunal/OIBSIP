@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container-lg {
+  height: 800px;
+  width: 100%;
+  /* background-image: url(img/frozen-thermometer.jpg);
+  align-items: center;
+  text-align: center;
+  background-repeat: no-repeat;
+  position: relative;
+  background-size: cover; */
+}
+
+.main {
+  color: rgb(224, 224, 224);
+  /* opacity: 20%; */
+}
+.tem {
+  font-size: 30px;
+  width: 100%;
+  padding-top: 30px;
+  color: rgb(255, 174, 0);
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  margin: auto;
+  /* position: absolute; */
+  top: 20%;
+  height: 300px;
+  max-width: 600px;
+  background-color: rgb(0, 153, 180);
+  /* display: flex; */
+  position: relative;
+  /* background-size: 400px; */
+  /* opacity: 50%; */
+  text-transform: capitalize;
+}
+
+.box-main {
+  margin: 20px;
+  padding: auto;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+.box1 .box2 {
+  /* height: 50px;
+  width: 50px; */
+}
+input {
+  height: 60px;
+  width: 200px;
+  font-size: larger;
+}
+.drop {
+  height: 60px;
+  width: 200px;
+  color: black;
+}
+.btn {
+  margin: 10px;
+  display: block;
+
+  padding: 5px;
+  position: absolute;
+  bottom: 2%;
+  background-color: rgb(255, 176, 6);
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  min-height: 30px;
+  min-width: 560px;
+}

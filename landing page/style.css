@@ -12,10 +12,10 @@
   font-family: serif;
   background: linear-gradient(
     150deg,
-    #ff9e2fea 0%,
+    #ff9821ea 0%,
     rgb(255, 255, 255) 50%,
     #ffffff 50%,
-    rgb(14, 177, 177) 100%
+    rgb(0, 132, 155) 100%
   );
 }
 h1 {
@@ -27,7 +27,7 @@ h1 {
 }
 .nav-bg {
   /* background-color: rgb(255, 130, 80); */
-  border-bottom: solid black 2px;
+  /* border-bottom: solid black 2px; */
 }
 .navbar {
   display: flex;
@@ -38,7 +38,9 @@ h1 {
 }
 .navbar li {
   list-style: none;
-  margin: 0px 15px 0 12px;
+  margin: 10px 20px 0 12px;
+  text-align: center;
+  justify-content: center;
 }
 
 .topleft {
