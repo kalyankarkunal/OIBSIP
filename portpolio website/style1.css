@@ -115,21 +115,23 @@ nav ul li a:hover {
 .image-main img {
   height: 100%;
   position: absolute;
-  left: 70%;
+  left: 60%;
   /* top: -10%; */
   bottom: 0;
   transform: translate(-50%);
   transition: bottom 1s, left 1s;
 }
 .image-main .boy {
-  height: 500px;
+  height: 550px;
   padding: 20px;
   margin: 5px;
 }
 
 .image-main .wings {
   position: absolute;
-  height: 600px;
+  left: 60%;
+  bottom: -10%;
+  height: 350px;
   padding: 20px;
   margin: 5px;
 }
