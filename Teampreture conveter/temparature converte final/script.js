@@ -23,5 +23,7 @@ function convertTemp(temp, unit) {
     return (temp - 32) * (5 / 9) + "°C";
   } else if (unit == "K") {
     return temp - 273.15 + "°C";
+  } else if (unit == "F") {
+    return (temp - 32) * (5 / 9) + 273.15 + "°K";
   }
 }
