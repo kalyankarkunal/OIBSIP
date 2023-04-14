@@ -95,16 +95,6 @@ nav ul li a:hover {
   border-radius: 5px;
 }
 
-.linkedin {
-  font-size: 10px;
-  position: absolute;
-  bottom: 1%;
-}
-
-.linkedin i {
-  padding: 0;
-  background-color: rgb(255, 244, 244);
-}
 .image-main {
   width: 45%;
   height: 80%;
@@ -125,22 +115,22 @@ nav ul li a:hover {
   height: 550px;
   padding: 20px;
   margin: 5px;
+  transform: translate(-50%);
+  transition: bottom 1s, left 1s;
 }
 
 .image-main .wings {
   position: absolute;
   left: 60%;
-  bottom: -10%;
+  bottom: -9%;
   height: 350px;
   padding: 20px;
   margin: 5px;
 }
 
-/* }
-.image-main:hover .wings {
-  bottom: 40px;
-}
-
 .image-main:hover .boy {
-  left: 40%;
-} */
+  left: 55%;
+}
+.image-main:hover .wings {
+  bottom: -40px;
+}

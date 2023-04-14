@@ -20,8 +20,8 @@ function convertTemp(temp, unit) {
   if (unit === "C") {
     return (temp * 9) / 5 + 32 + "°F";
   } else if (unit == "F") {
-    return (temp - 32) * (5 / 9) + "°c";
+    return (temp - 32) * (5 / 9) + "°C";
   } else if (unit == "K") {
-    return temp + 273.15 + "°c";
+    return temp - 273.15 + "°C";
   }
 }
